@@ -1,0 +1,6 @@
+{
+    "explorer.copyRelativePathSeparator": "auto",
+    "explorer.fileNesting.enabled": true,
+    "explorer.incrementalNaming": "simple",
+    "explorer.compactFolders": false
+}
