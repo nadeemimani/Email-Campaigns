@@ -3,5 +3,5 @@
     "explorer.fileNesting.enabled": true,
     "explorer.incrementalNaming": "simple",
     "explorer.compactFolders": false,
-    "remoteHub.staging.smart": false
+    "remoteHub.staging.smart": true
 }
