@@ -17,13 +17,16 @@
 		body {
 			margin: 0;
 			padding: 0;
-            background-color:#ffe2e2;
+            background-color:#ffffff;
 		}
         
         .minibody {
         	max-width:650px;
-            background-color: #f9f9df;
+            background-color: #fdfdec;
             margin: auto;
+            box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.117);
+            border-left: 2px solid white;
+            border-right: 2px solid white;
         }
         
 
@@ -200,7 +203,7 @@
         .button {
         font-family:'Oswald', Arial, 'Helvetica Neue', Helvetica, sans-serif;
         font-size: 24px;
-        background-color: #d51515;
+        background-color: #e09740;
         border-radius:4px;
         width: 100%;
         margin-top:25px;
@@ -230,6 +233,14 @@
         width: 100%; 
         height: 100px;
         object-fit:contain;
+        }
+        
+        .transform {
+        transform: scale(1.25);
+        }
+        
+        .margin-move {
+        margin-top: -25px;
         }
        
 		@media (max-width:670px) {
@@ -430,6 +441,14 @@
         	width: 33%!important; 
         	}
             
+            .transform {
+       		 transform: scale(1)!important;
+        	}
+            
+            .margin-move {
+        	margin-top: -50px!important;
+        	}
+            
 		}
 
 		#memu-r0c0m1:checked~.menu-links {
@@ -451,28 +470,43 @@
 
 </head>
 <body style="margin: 0; padding: 0; -webkit-text-size-adjust: none; text-size-adjust: none;">
-    <table class="nl-container" width="100%"  cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+    <table class="nl-container" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
         <tbody>
             <tr>
                 <td>
                     <div class="minibody">
                         <!-- Start Header Menu -->
+
+                        <!-- Start Main Image -->
+                                                            
+                        <table width="100%" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;">
+                            <tbody>
+                                <tr class="heading_block block-6" height="350" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-image: url('https://mcusercontent.com/2ec0be769822ccda356433ce9/images/f3289d42-85c3-3146-9a00-a7317bf6f0e5.jpg'); background-position: center; background-repeat: no-repeat; position: relative; background-size: cover;">
+                                    <td class="" style="text-align:center;width:100%;">
+                                        <img src="" alt="">
+                                    </td>
+                                </tr>
+                            
+                            </tbody>
+                        </table>
+                    
+                        <!-- End Main Image -->
                         
-                            <table class="row row-1"  width="100%"  cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; ">
+                            <table class="row row-1" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; ">
                                 <tbody>
                                     <tr>
                                         <td>
-                                            <table class="row-content stack"   cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-position: top center; background-repeat: no-repeat; color: #000000; background-size: auto; width: 100%; margin: 0 auto;" width="100%">
+                                            <table class="row-content stack" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-position: top center; background-repeat: no-repeat; color: #000000; background-size: auto; width: 100%; margin: 0 auto;" width="100%">
                                                 <tbody>
                                                     <tr>
                                                         <td class="column column-1" width="100%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;">
                                                         
                                                             <!-- Start Logo -->
                                                         
-                                                                <table class="border-bottom image_block block-1 padding-vl padding-hl" width="100%"  cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                                                <table class="border-bottom image_block block-1 padding-vl padding-hl" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
                                                                     <tr>
                                                                         <td class="padding-vl" style="; width:100%;">
-                                                                            <div class="alignment"  style="line-height:10px; text-align: -webkit-center; ">
+                                                                            <div class="alignment" style="line-height:10px; text-align: -webkit-center; ">
                                                                                 <div class="logosize" style=""><a href="https://thecarbonbar.ca/restaurant/" target="_blank" style="outline:none" tabindex="-1"><img src="https://mcusercontent.com/2ec0be769822ccda356433ce9/images/3a78d75d-46e9-c942-cdd0-acdacd207487.png" style="display: block; height: auto; border: 0; width: 100%;" width="150" alt="The Carbon Bar Logo" title="The Carbon Bar Logo"></a></div>
                                                                             </div>
                                                                         </td>
@@ -483,10 +517,10 @@
                                                             
                                                             <!-- Start Menu -->
                                                             
-                                                                <table class="bannermenu_block block-3 padding-v padding-hm" width="100%"  cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-bottom: 1px solid #2d2d2d;border-top: 1px solid #2d2d2d;">
+                                                                <table class="bannermenu_block block-3 padding-v padding-hm" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-bottom: 1px solid #2d2d2d;border-top: 1px solid #2d2d2d;">
                                                                     <tr>
                                                                         <td class="" style="color:#000000;font-family:'Oswald', Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:15px;text-align:center;">
-                                                                            <table width="100%" cellpadding="0" cellspacing="0"  role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                                                            <table width="100%" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
                                                                                 <tr>
                                                                                     <td class="alignment" style="text-align:center;font-size:0px;"><!--[if !mso]><!--><!--<![endif]-->
                                                                                         <div class="menu-links">
@@ -533,13 +567,19 @@
                         <div class="padding-hl padding-vxl">
                             <!-- Start Heading -->
 
-                        
-                                <table  class="heading_block block-3" width="100%"  cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; width:100%; padding-bottom: 25px;">
-                                    <tr class="heading_block block-6" width="100%"  cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-image: url(''); background-position: center; background-repeat: no-repeat; position: relative;">
-                                        <td class="" style="padding: 25px 50px 0px 50px; text-align:center;width:100%;">
-                                            <img src="https://mcusercontent.com/2ec0be769822ccda356433ce9/images/4e2f5968-222b-e515-b110-9d4b7bb78809.png" alt="">
+                                <h3 style="margin: 0; text-align: center; margin-bottom:50px; mso-line-height-alt: 25.2px;">Luc Belaire presents</h3>
+                                <table class="heading_block block-3" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; width:100%; padding-bottom: 25px;">
+                                    <tr class="transform heading_block block-6" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-image: url('https://mcusercontent.com/2ec0be769822ccda356433ce9/images/3e1416d9-f6b6-7318-0eff-19140279bbbb.png'); background-repeat: no-repeat; position: relative; height: 200px; background-size: contain; ">
+                                        <td class="" style=" text-align:center;width:100%;">
+                                            <img src="" alt="">
                                         </td>
                                     </tr>
+                                    <tr>
+                                    <td class="" style="text-align:center;">
+                                        <h1 class="margin-move" style="color:#e09740; margin: 0; text-align: center; margin-bottom: 0; mso-line-height-alt: 25.2px;">Day Brunch - $55</h1>
+                                        <h3 style="margin: 0; text-align: center; margin-bottom: 0; mso-line-height-alt: 25.2px;">May 12, 2024<br>Starting 11:00 AM - 2:00 PM</h3>
+                                    </td>
+                                </tr>
                                 </table>
 
                             
@@ -550,12 +590,12 @@
 
                             <!-- Start Introduction Paragraph -->
                 
-                                <table class="heading_block block-6 padding-hl padding-vl" width="100%"  cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; color: #000000; width: 100%; margin: 0 auto;">
+                                <table class="heading_block block-6 padding-hl padding-vl" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; color: #000000; width: 100%; margin: 0 auto;">
                                     <tr>
-                                        <td class="" style="padding-bottom: 25px;text-align:center;width:100%;">
+                                        <td class="" style="text-align:center;width:100%;">
                                             <div class="">
                                                 <h2 style="margin:0;margin-top:0;margin-bottom:0;color: #000000; direction: ltr; mso-line-height-alt: 33.6px;">Dear, *|FNAME|*!</h2><br>
-                                                <p style="color: #000000; margin: 0; text-align: center; margin-top: 0; margin-bottom: 0; mso-line-height-alt: 25.2px;">This Mother's Day, step into The Carbon Bar for a brunch experience that will make the special woman in your life feel truly cherished. We've crafted an exclusive menu that promises to delight with every bite.</p>
+                                                <p style="padding-bottom: 0px; margin:0;margin-top:0;margin-bottom:0;">This Mother's Day, step into The Carbon Bar for a brunch experience that will make the special woman in your life feel truly cherished. We've crafted an exclusive menu that promises to delight with every bite.</p>
                                             </div>
                                         </td>
                                     </tr>                                                                    
@@ -563,30 +603,15 @@
                         
                             <!-- End Introduction Paragraph -->
 
-                            <!-- Start Caption -->
-
-                            
-                            <table  class="heading_block block-4" width="100%"  cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; width:100%; padding-bottom: 25px;">
-                                <tr>
-                                    <td class="" style="text-align:center;">
-                                        <p class="menu-caption" style="margin: 0; text-align: center; margin-top: 0; margin-bottom: 0; mso-line-height-alt: 25.2px;">May 12, 2024<br>Starting 11:00 AM</p>
-                                    </td>
-                                </tr>
-                            </table>
-
-                        
-
-                        <!-- End Caption -->
-
                         </div>
                     
                         <!-- Start Title Section -->
                         
-                            <table class="row row-2"  width="100%"  cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;">
+                            <table class="row row-2" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;">
                                 <tbody>
                                     <tr>
                                         <td>
-                                            <table class="row-content stack"   cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-position: top center; background-repeat: no-repeat; color: #000000; background-size: auto; width: 100%; margin: 0 auto;" width="100%">
+                                            <table class="row-content stack" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-position: top center; background-repeat: no-repeat; color: #000000; background-size: auto; width: 100%; margin: 0 auto;" width="100%">
                                                 <tbody>
                                                     <tr>
                                                         <td class="column column-1" width="100%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;">
@@ -599,9 +624,9 @@
 
                                                                         <!-- Start Main Image -->
                                                             
-                                                                        <table width="100%"  cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;">
+                                                                        <table width="100%" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;">
                                                                             <tbody>
-                                                                                <tr class="heading_block block-6 hero-image" width="100%"  cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-image: url('https://mcusercontent.com/2ec0be769822ccda356433ce9/images/94656d22-cfd0-3a88-96ff-3b2b86e23046.jpg'); background-position: center; background-repeat: no-repeat; position: relative;">
+                                                                                <tr class="heading_block block-6" height="350" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-image: url('https://mcusercontent.com/2ec0be769822ccda356433ce9/images/09338687-93b9-1a8d-6976-f9967a003167.jpg'); background-position: center; background-repeat: no-repeat; position: relative; background-size: cover;">
                                                                                     <td class="" style="text-align:center;width:100%;">
                                                                                         <img src="" alt="">
                                                                                     </td>
@@ -633,21 +658,21 @@
                         <!-- End Title Section-->
                         <!-- Start BANNER -->
                         
-                            <table class="row row-4"  width="100%"  cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;">
+                            <table class="row row-4" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;">
                                 <tbody>
                                     <tr>
                                         <td>
-                                            <table class="row-content stack banner padding-h padding-vm"   cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; margin: 0 auto;" width="100%">
+                                            <table class="row-content stack banner padding-h padding-vm" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; margin: 0 auto;" width="100%">
                                                 <tbody>
                                                     <tr>
                                                         <td class="column column-1" width="100%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: center; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;">
                                                         
                                                             <!-- Start Banner Title -->
                                                         
-                                                            <table class="heading_block block-1" width="100%"  cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                                            <table class="heading_block block-1" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
                                                                 <tr>
                                                                     <td class="" style="text-align:center;width:100%;">
-                                                                        <h2 style="margin:0;margin-top:0;margin-bottom:0;margin: 0; color: #ffffff; direction: ltr; font-family:'Oswald', Arial, 'Helvetica Neue', Helvetica, sans-serif;letter-spacing:normal; mso-line-height-alt: 39.6px;">Mother's Day Brunch Menu - $55</h2>
+                                                                        <h2 style="margin:0;margin-top:0;margin-bottom:0;margin: 0; color: #ffffff; direction: ltr; font-family:'Oswald', Arial, 'Helvetica Neue', Helvetica, sans-serif;letter-spacing:normal; mso-line-height-alt: 39.6px;">Mother's Day Brunch Menu</h2>
                                                                     </td>
                                                                 </tr>
                                                             </table>
@@ -666,13 +691,13 @@
                         <!-- End BANNER -->
                         <!-- Start Menu-->
                         
-                            <table class="row row-3"  width="100"  cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;">
+                            <table class="row row-3" width="100" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;">
                                 <tbody>
                                     <tr>
                                         <td>
-                                            <table class="row-content stack padding-hl"   cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-position: top center; background-repeat: no-repeat; color: #000000; width: 100%; margin: 0 auto;" width="100%">
+                                            <table class="row-content stack padding-hl" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-position: top center; background-repeat: no-repeat; color: #000000; width: 100%; margin: 0 auto;" width="100%">
                                                 <tbody>
-                                                    <tr >
+                                                    <tr>
                                                         
                                                         <!-- Start Column -->
                                                     
@@ -681,12 +706,12 @@
                                                             <!-- Start Box Intro -->
                                                             
                                                             <div class="">
-                                                                <table  class="heading_block block-1" width="100%"  cellpadding="0" cellspacing="0" role="presentation" style="width: 100%;mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                                                <table class="heading_block block-1" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%;mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
                                                                     <tr>
-                                                                        <td class="menu-section padding-vxl" style="border-bottom: 2px solid rgb(255,255,255);text-align:center; width:100%;">
-                                                                            <h2 style="padding-bottom: 25px; margin:0;margin-top:0;margin-bottom:0;margin: 0; line-height: 100%; text-align: center; margin-top: 0; margin-bottom: 0; mso-line-height-alt: 33.6px;">Appetizers to Start</h2>
-                                                                            <p style="padding-bottom: 0px; margin:0;margin-top:0;margin-bottom:0;">Spiralized red beets, charred orange segments, goat cheddar, smoked pecans, rosemary orange vinaigrette</p>
-                                                                            <!--
+                                                                        <td class="menu-section padding-vxl" style="border-bottom: 1px solid rgb(224,151,64,.5);text-align:center; width:100%;">
+                                                                            <h2 style="padding-bottom: 25px; margin:0;margin-top:0;margin-bottom:0;margin: 0; line-height: 100%; text-align: center; margin-top: 0; margin-bottom: 0; mso-line-height-alt: 33.6px;">Appetizers</h2>
+                                                                            
+                                                                            
                                                                                 <ul style="margin:0;margin-top:0;margin-bottom:0;line-height:1; padding: 0px 75px;">
                                                                                     <li class="menu-subtext" style="margin-left: 0px; list-style: none; padding-left: 0px; text-align: center; margin-top: 0;mso-line-height-alt: 25.2px;">
                                                                                         <h3 style="margin:0;margin-top:0;margin-bottom:0;padding-bottom: 10px;">Beet Salad</h3>
@@ -714,14 +739,12 @@
                                                                                         <p style="margin:0;margin-top:0;margin-bottom:0;">East Coast oysters, garlic spinach, bacon bits, seasoned panko, Grana Padano, classic hollandaise</p>
                                                                                     </li>
                                                                                 </ul>
-                                                                            -->
+                                                                            
                                                                         </td>
                                                                     </tr>
                                                                     <tr>
-                                                                        <td class="menu-section padding-vxl" style="border-bottom: 2px solid rgb(255,255,255);text-align:center; width:100%;">
-                                                                            <h2 style="padding-bottom: 25px; margin:0;margin-top:0;margin-bottom:0; margin: 0; line-height: 100%; text-align: center; margin-top: 0; margin-bottom: 0; mso-line-height-alt: 33.6px;">Mother's Day Mains</h2>
-                                                                            <p style="padding-bottom: 0px;margin:0;margin-top:0;margin-bottom:0;">Savor the flavors of our Bourbon Miso-Glazed Salmon, indulge in Chicken and Waffles, or try our Buttermilk Pancakes with Bacon for a sweet twist. We also have a hearty Smoked Bacon Cheeseburger, and a delectable vegetarian option available.</p>
-                                                                            <!--
+                                                                        <td class="menu-section padding-vxl" style="border-bottom: 1px solid rgb(224,151,64,.5);text-align:center; width:100%;">
+                                                                            <h2 style="padding-bottom: 25px; margin:0;margin-top:0;margin-bottom:0; margin: 0; line-height: 100%; text-align: center; margin-top: 0; margin-bottom: 0; mso-line-height-alt: 33.6px;">Mains</h2>
                                                                                 <ul style="margin:0;margin-top:0;margin-bottom:0;line-height:1 ;padding: 0px 75px;">
                                                                                     <li class="menu-subtext" style="margin-left: 0px; list-style: none; padding-left: 0px; text-align: center; margin-top: 0;mso-line-height-alt: 25.2px;">
                                                                                         <h3 style="margin:0;margin-top:0;margin-bottom:0;padding-bottom: 10px;">Bourbon miso-glazed salmon</h3>
@@ -750,68 +773,116 @@
                                                                                     </li>
                                                                                 </ul>
                                                                                 <p style="padding-top: 50px;margin:0;margin-top:0;margin-bottom:0;">Vegetarian option available*</p>
-                                                                            -->
-                                                                        </td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td class="menu-section padding-vxl" style="border-bottom: 2px solid rgb(255,255,255);text-align:center; width:100%;">
-                                                                            <h2 style="padding-bottom:25px;margin:0;margin-top:0;margin-bottom:0; margin: 0; line-height: 100%; text-align: center; margin-top: 0; margin-bottom: 0; mso-line-height-alt: 33.6px;">Delectable Desserts</h2>
-                                                                            <p style="padding-bottom: 0px;margin:0;margin-top:0;margin-bottom:0;">End on a sweet note with our Homestyle Carrot Cake, Cherry Cheesecake, or refreshing Fresh Sorbet. We also have Dairy Free and Gluten free option available.</p>
-                                                                            <!--
-                                                                                <ul style="margin:0;margin-top:0;margin-bottom:0;line-height:1 ;padding: 0px 75px;">
-                                                                                    <li class="menu-subtext" style="margin-left: 0px; list-style: none; padding-left: 0px; text-align: center; margin-top: 0; mso-line-height-alt: 25.2px;">
-                                                                                        <h3 style="margin:0;margin-top:0;margin-bottom:0;padding-bottom: 10px;">Homestyle Carrot cake</h3>
-                                                                                        <p style="margin:0;margin-top:0;margin-bottom:0;">Soft spiced cake, carrots, layered cream cheese frosting</p>
-                                                                                    </li>
-                                                                                    <li class="menu-subtext" style="margin-left: 0px; list-style: none; padding-left: 0px; text-align: center; margin: 25px 0px;mso-line-height-alt: 25.2px;">
-                                                                                        <p style="color: rgb(200,200,200); margin:0;margin-top:0;margin-bottom:0;">or</p>
-                                                                                    </li>
-                                                                                    <li class="menu-subtext" style="margin-left: 0px; list-style: none; padding-left: 0px; text-align: center; margin-top: 0; mso-line-height-alt: 25.2px;">
-                                                                                        <h3 style="margin:0;margin-top:0;margin-bottom:0;padding-bottom: 10px;">Cherry Cheesecake</h3>
-                                                                                        <p style="margin:0;margin-top:0;margin-bottom:0;">Vanilla and cherry swirled, graham cracker crust, cherry coulis</p>
-                                                                                    </li>
-                                                                                    <li class="menu-subtext" style="margin-left: 0px; list-style: none; padding-left: 0px; text-align: center; margin: 25px 0px;mso-line-height-alt: 25.2px;">
-                                                                                        <p style="color: rgb(200,200,200); margin:0;margin-top:0;margin-bottom:0;">or</p>
-                                                                                    </li>
-                                                                                    <li class="menu-subtext" style="margin-left: 0px; list-style: none; padding-left: 0px; text-align: center; margin-top: 0; mso-line-height-alt: 25.2px;">
-                                                                                        <h3 style="margin:0;margin-top:0;margin-bottom:0;padding-bottom: 10px;">Fresh Sorbet</h3>
-                                                                                        <p style="margin:0;margin-top:0;margin-bottom:0;">Strawberry / Mango</p>
-                                                                                    </li>
-                                                                                </ul>
-                                                                                <p style="padding-top: 50px;margin:0;margin-top:0;margin-bottom:0;">Dairy Free and Gluten free option available*</p>
-                                                                            -->
-                                                                        </td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td class="menu-section padding-vxl" style="text-align:center; width:100%;">
-                                                                            <h2 style="padding-bottom: 25px; margin:0;margin-top:0;margin-bottom:0; margin: 0; line-height: 100%; text-align: center; margin-top: 0; margin-bottom: 0; mso-line-height-alt: 33.6px;">Tasty Add-ons</h2>
-                                                                            <p style="padding-bottom: 0px;margin:0;margin-top:0;margin-bottom:0;">Enhance your meal with our Mac N' Cheese, Smashed Potato, or a Fresh Fruit bowl.</p>
-                                                                            <!--
-                                                                                <ul style="margin:0;margin-top:0;margin-bottom:0;line-height:1 ; padding: 0px 75px;">
-                                                                                    <li class="menu-subtext" style="margin-left: 0px; list-style: none; padding-left: 0px; text-align: center; margin-top: 0; mso-line-height-alt: 25.2px;">
-                                                                                        <h3 style="margin:0;margin-top:0;margin-bottom:0;padding-bottom: 10px;">Mac N, Cheese $9</h3>
-                                                                                        <p style="margin:0;margin-top:0;margin-bottom:0;">Jarlsberg cheese, seasoned panko crumb</p>
-                                                                                    </li>
-                                                                                    <li class="menu-subtext" style="margin-left: 0px; list-style: none; padding-left: 0px; text-align: center; margin: 25px 0px;mso-line-height-alt: 25.2px;">
-                                                                                        <p style="color: rgb(200,200,200); margin:0;margin-top:0;margin-bottom:0;">or</p>
-                                                                                    </li>
-                                                                                    <li class="menu-subtext" style="margin-left: 0px; list-style: none; padding-left: 0px; text-align: center; margin-top: 0; mso-line-height-alt: 25.2px;">
-                                                                                        <h3 style="margin:0;margin-top:0;margin-bottom:0;padding-bottom: 10px;">Smashed potato $8</h3>
-                                                                                        <p style="margin:0;margin-top:0;margin-bottom:0;">Parmesan, lemon, parsley</p>
-                                                                                    </li>
-                                                                                    <li class="menu-subtext" style="margin-left: 0px; list-style: none; padding-left: 0px; text-align: center; margin: 25px 0px;mso-line-height-alt: 25.2px;">
-                                                                                        <p style="color: rgb(200,200,200); margin:0;margin-top:0;margin-bottom:0;">or</p>
-                                                                                    </li>
-                                                                                    <li class="menu-subtext" style="margin-left: 0px; list-style: none; padding-left: 0px; text-align: center; margin-top: 0; mso-line-height-alt: 25.2px;">
-                                                                                        <h3 style="margin:0;margin-top:0;margin-bottom:0;padding-bottom: 10px;">Fresh Fruit $8</h3>
-                                                                                        <p style="margin:0;margin-top:0;margin-bottom:0;">Fresh-cut seasonal fruits</p>
-                                                                                    </li>
-                                                                                </ul>
-                                                                            -->
                                                                         </td>
                                                                     </tr>
                                                                 </table>
                                                             </div>
+                                                            
+                                                            <!-- End Box Intro -->
+                                                        </td>
+                                                            
+                                                        <!-- End Column -->
+                                                        
+                                                        
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+
+
+
+                            <!-- Start Main Image -->
+                                                            
+                            <table width="100%" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;">
+                                <tbody>
+                                    <tr class="heading_block block-6 hero-image" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-image: url('https://mcusercontent.com/2ec0be769822ccda356433ce9/images/a0daee5b-f175-8b6e-af12-f354da64c00f.jpg'); background-position: center; background-repeat: no-repeat; position: relative;">
+                                        <td class="" style="text-align:center;width:100%;">
+                                            <img src="" alt="">
+                                        </td>
+                                    </tr>
+                                
+                                </tbody>
+                            </table>
+                        
+                            <!-- End Main Image -->
+
+
+
+                            
+                            <table class="row row-3" width="100" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <table class="row-content stack padding-hl" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-position: top center; background-repeat: no-repeat; color: #000000; width: 100%; margin: 0 auto;" width="100%">
+                                                <tbody>
+                                                    <tr>
+                                                        
+                                                        <!-- Start Column -->
+                                                    
+                                                        <td class="column column-1 padding-vl padding-hl" width="100%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px; width: 100%;">
+                                                        
+                                                            <!-- Start Box Intro -->
+                                                            
+                                                            <div class="">
+                                                                <table class="heading_block block-1" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%;mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                                                    <tr>
+                                                                        <td class="menu-section padding-vxl" style="border-bottom: 1px solid rgb(224,151,64,.5);text-align:center; width:100%;">
+                                                                            <h2 style="padding-bottom:25px;margin:0;margin-top:0;margin-bottom:0; margin: 0; line-height: 100%; text-align: center; margin-top: 0; margin-bottom: 0; mso-line-height-alt: 33.6px;">Desserts</h2>
+                                                                            <ul style="margin:0;margin-top:0;margin-bottom:0;line-height:1 ;padding: 0px 75px;">
+                                                                                <li class="menu-subtext" style="margin-left: 0px; list-style: none; padding-left: 0px; text-align: center; margin-top: 0; mso-line-height-alt: 25.2px;">
+                                                                                    <h3 style="margin:0;margin-top:0;margin-bottom:0;padding-bottom: 10px;">Homestyle Carrot cake</h3>
+                                                                                    <p style="margin:0;margin-top:0;margin-bottom:0;">Soft spiced cake, carrots, layered cream cheese frosting</p>
+                                                                                </li>
+                                                                                <li class="menu-subtext" style="margin-left: 0px; list-style: none; padding-left: 0px; text-align: center; margin: 25px 0px;mso-line-height-alt: 25.2px;">
+                                                                                    <p style="color: rgb(200,200,200); margin:0;margin-top:0;margin-bottom:0;">or</p>
+                                                                                </li>
+                                                                                <li class="menu-subtext" style="margin-left: 0px; list-style: none; padding-left: 0px; text-align: center; margin-top: 0; mso-line-height-alt: 25.2px;">
+                                                                                    <h3 style="margin:0;margin-top:0;margin-bottom:0;padding-bottom: 10px;">Cherry Cheesecake</h3>
+                                                                                    <p style="margin:0;margin-top:0;margin-bottom:0;">Vanilla and cherry swirled, graham cracker crust, cherry coulis</p>
+                                                                                </li>
+                                                                                <li class="menu-subtext" style="margin-left: 0px; list-style: none; padding-left: 0px; text-align: center; margin: 25px 0px;mso-line-height-alt: 25.2px;">
+                                                                                    <p style="color: rgb(200,200,200); margin:0;margin-top:0;margin-bottom:0;">or</p>
+                                                                                </li>
+                                                                                <li class="menu-subtext" style="margin-left: 0px; list-style: none; padding-left: 0px; text-align: center; margin-top: 0; mso-line-height-alt: 25.2px;">
+                                                                                    <h3 style="margin:0;margin-top:0;margin-bottom:0;padding-bottom: 10px;">Fresh Sorbet</h3>
+                                                                                    <p style="margin:0;margin-top:0;margin-bottom:0;">Strawberry / Mango</p>
+                                                                                </li>
+                                                                            </ul>
+                                                                            <p style="padding-top: 50px;margin:0;margin-top:0;margin-bottom:0;">Dairy Free and Gluten free option available*</p>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="menu-section padding-vxl" style="text-align:center; width:100%;">
+                                                                            <h2 style="padding-bottom: 25px; margin:0;margin-top:0;margin-bottom:0; margin: 0; line-height: 100%; text-align: center; margin-top: 0; margin-bottom: 0; mso-line-height-alt: 33.6px;">Add-ons</h2>
+                                                                            <ul style="margin:0;margin-top:0;margin-bottom:0;line-height:1 ; padding: 0px 75px;">
+                                                                                <li class="menu-subtext" style="margin-left: 0px; list-style: none; padding-left: 0px; text-align: center; margin-top: 0; mso-line-height-alt: 25.2px;">
+                                                                                    <h3 style="margin:0;margin-top:0;margin-bottom:0;padding-bottom: 10px;">Mac N, Cheese $9</h3>
+                                                                                    <p style="margin:0;margin-top:0;margin-bottom:0;">Jarlsberg cheese, seasoned panko crumb</p>
+                                                                                </li>
+                                                                                <li class="menu-subtext" style="margin-left: 0px; list-style: none; padding-left: 0px; text-align: center; margin: 25px 0px;mso-line-height-alt: 25.2px;">
+                                                                                    <p style="color: rgb(200,200,200); margin:0;margin-top:0;margin-bottom:0;">or</p>
+                                                                                </li>
+                                                                                <li class="menu-subtext" style="margin-left: 0px; list-style: none; padding-left: 0px; text-align: center; margin-top: 0; mso-line-height-alt: 25.2px;">
+                                                                                    <h3 style="margin:0;margin-top:0;margin-bottom:0;padding-bottom: 10px;">Smashed potato $8</h3>
+                                                                                    <p style="margin:0;margin-top:0;margin-bottom:0;">Parmesan, lemon, parsley</p>
+                                                                                </li>
+                                                                                <li class="menu-subtext" style="margin-left: 0px; list-style: none; padding-left: 0px; text-align: center; margin: 25px 0px;mso-line-height-alt: 25.2px;">
+                                                                                    <p style="color: rgb(200,200,200); margin:0;margin-top:0;margin-bottom:0;">or</p>
+                                                                                </li>
+                                                                                <li class="menu-subtext" style="margin-left: 0px; list-style: none; padding-left: 0px; text-align: center; margin-top: 0; mso-line-height-alt: 25.2px;">
+                                                                                    <h3 style="margin:0;margin-top:0;margin-bottom:0;padding-bottom: 10px;">Fresh Fruit $8</h3>
+                                                                                    <p style="margin:0;margin-top:0;margin-bottom:0;">Fresh-cut seasonal fruits</p>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </div>
+                                                            
                                                             <!-- End Box Intro -->
                                                         </td>
                                                             
@@ -830,9 +901,9 @@
 
                         <!-- Start Main Image -->
                                                             
-                        <table width="100%"  cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;">
+                        <table width="100%" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;">
                             <tbody>
-                                <tr class="heading_block block-6 hero-image" width="100%"  cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-image: url('https://mcusercontent.com/2ec0be769822ccda356433ce9/images/09f1c633-580c-3643-7f9d-92b260409b48.jpg'); background-position: center; background-repeat: no-repeat; position: relative;">
+                                <tr class="heading_block block-6" height="250" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-image: url('https://mcusercontent.com/2ec0be769822ccda356433ce9/images/992bda63-429d-9ef1-bdc7-91ca5543e87c.jpg'); background-position: center; background-repeat: no-repeat; position: relative; background-size: cover;">
                                     <td class="" style="text-align:center;width:100%;">
                                         <img src="" alt="">
                                     </td>
@@ -845,18 +916,18 @@
 
                         <!-- Start BANNER-->
                         
-                            <table class="row row-4"  width="100%"  cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;">
+                            <table class="row row-4" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;">
                                 <tbody>
                                     <tr>
                                         <td>
-                                            <table class="row-content stack banner padding-h padding-vm"   cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; margin: 0 auto;" width="100%">
+                                            <table class="row-content stack banner padding-h padding-vm" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; margin: 0 auto;" width="100%">
                                                 <tbody>
                                                     <tr>
                                                         <td class="column column-1" width="100%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: center; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;">
                                                         
                                                             <!-- Start Banner Title -->
                                                         
-                                                            <table class="heading_block block-1" width="100%"  cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                                            <table class="heading_block block-1" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
                                                                 <tr>
                                                                     <td class="" style="text-align:center;width:100%;">
                                                                         <h2 style="margin:0;margin-top:0;margin-bottom:0;margin: 0; color: #ffffff; direction: ltr; font-family:'Oswald', Arial, 'Helvetica Neue', Helvetica, sans-serif;letter-spacing:normal; mso-line-height-alt: 39.6px;">Reserve a Table</h2>
@@ -878,11 +949,11 @@
                         <!-- End BANNER -->
                         <!-- Start INFO Section 5 -->
                         
-                            <table class="row row-5"  width="100%"  cellpadding="0" cellspacing="0" role="presentation" style="padding-left:0!important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%">
+                            <table class="row row-5" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="padding-left:0!important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%">
                                 <tbody>
                                     <tr>
                                         <td>
-                                            <table class="row-content"   cellpadding="0" cellspacing="0" role="presentation" style="padding-left:0!important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-image: url(''); background-size: cover;background-position: top center; background-repeat: no-repeat; color: #000000; width: 100%; margin: 0 auto;" width="100%">
+                                            <table class="row-content" cellpadding="0" cellspacing="0" role="presentation" style="padding-left:0!important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-image: url(''); background-size: cover;background-position: top center; background-repeat: no-repeat; color: #000000; width: 100%; margin: 0 auto;" width="100%">
                                                 <tbody width="100%" style="padding-left:0!important; width: 100%">
                                                     
                                                     <!-- Start Reserve Info Box -->
@@ -892,7 +963,7 @@
                                                                 
                                                                 <!-- Start Introduction Paragraph -->
                                                             
-                                                                    <table class="heading_block block-6 padding-hl padding-vl" width="100%"  cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; color: #000000; width: 100%; margin: 0 auto;">
+                                                                    <table class="heading_block block-6 padding-hl padding-vl" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; color: #000000; width: 100%; margin: 0 auto;">
                                                                         <tr>
                                                                             <td class="" style="text-align:center;width:100%;">
                                                                                 <div class="">
@@ -905,10 +976,10 @@
                                                                 <!-- End Introduction Paragraph -->
                                                                 <!-- Start Logo -->
                                                             
-                                                                    <table class="image_block block-1 padding-vl padding-hl" width="100%"  cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                                                    <table class="image_block block-1 padding-vl padding-hl" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
                                                                         <tr>
                                                                             <td class="" style="width:100%;">
-                                                                                <div class="alignment"  style="line-height:10px; text-align: -webkit-center;">
+                                                                                <div class="alignment" style="line-height:10px; text-align: -webkit-center;">
                                                                                     <div class="logosize" style=""><a href="https://thecarbonbar.ca/restaurant/" target="_blank" style="outline:none" tabindex="-1"><img src="https://mcusercontent.com/2ec0be769822ccda356433ce9/images/3a78d75d-46e9-c942-cdd0-acdacd207487.png" style="display: block; height: auto; border: 0; width: 100%;" width="150" alt="The Carbon Bar Logo" title="The Carbon Bar Logo"></a></div>
                                                                                 </div>
                                                                             </td>
@@ -918,7 +989,7 @@
                                                                 <!-- End Logo --> 
                                                                 <!-- Start Location -->
                                                                 
-                                                                    <table class="heading_block block-2" width="100%"  cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                                                    <table class="heading_block block-2" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
                                                                         <tr>
                                                                             <td class="padding-hm" style="text-align:center;width:100%;">
                                                                                     <div class="" style="margin: 0; text-align: center; margin-top: 0; margin-bottom: 0;">
@@ -934,7 +1005,7 @@
                                                                 <!-- End Location -->
                                                                 <!-- Start Reserve -->
                                                                 
-                                                                    <table class="heading_block block-2" width="100%"  cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                                                    <table class="heading_block block-2" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
                                                                         <tr>
                                                                             <td class="padding-vm" style="text-align:center; width: 100%">
                                                                                 <div class="alignment"><!--[if mso]>
@@ -962,26 +1033,44 @@
                             </table>
                         
                         <!-- End INFO Section 5 -->   
+
+                        <!-- Start Main Image -->
+                                
+                        <table width="100%" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;">
+                            <tbody>
+                                <tr class="heading_block block-6" height="250" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-image: url('https://mcusercontent.com/2ec0be769822ccda356433ce9/images/d0e89f4a-630e-1423-57fa-7720a9a9c052.jpg'); background-position: center; background-repeat: no-repeat; position: relative; background-size: cover;">
+                                    <td class="" style="text-align:center;width:100%;">
+                                        <img src="" alt="">
+                                    </td>
+                                </tr>
+                            
+                            </tbody>
+                        </table>
+                    
+                        <!-- End Main Image -->
+
+
+
                         <!-- Start FOOTER Section 6 -->
-                            <table class="row row-6 footer"  width="100%"  cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;">
+                            <table class="row row-6 footer" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;">
                                 <tbody>
                                     <tr>
                                         <td>
-                                            <table class="row-content"   cellpadding="0" cellspacing="0" role="presentation" style="border-bottom: 1px solid #2d2d2d;padding-left:0!important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-image: url('https://images.unsplash.com/photo-1585511582331-14e7c5f89735?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmxhY2slMjBwYXBlciUyMHRleHR1cmV8ZW58MHx8MHx8fDA%3D'); background-position: top center; background-repeat: no-repeat; color: #000000; width: 100%; margin: 0 auto;" width="100%">
+                                            <table class="row-content" cellpadding="0" cellspacing="0" role="presentation" style="border-bottom: 1px solid #2d2d2d;padding-left:0!important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-image: url('https://images.unsplash.com/photo-1585511582331-14e7c5f89735?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmxhY2slMjBwYXBlciUyMHRleHR1cmV8ZW58MHx8MHx8fDA%3D'); background-position: top center; background-repeat: no-repeat; color: #000000; width: 100%; margin: 0 auto;" width="100%">
                                                 <tbody width="100%" style="padding-left:0!important; width: 100%">
                                                     <!-- Start Info Logos -->  
                                                         <tr width="100%" style="width: 100%">
                                                             <td class="column column-1" width="100%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: center; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px; width: 50%; padding-right: 0px!important;">
-                                                                <table class="border-bottom row-content padding-hl"   cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #000000; color: #000000; width: 100%; margin: 0 auto;" width="100%">
+                                                                <table class="border-bottom row-content padding-hl" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #000000; color: #000000; width: 100%; margin: 0 auto;" width="100%">
                                                                     <tbody>
                                                                         <tr class="mlogos">
                                                                             <!-- Start Logos -->
                                                                             <!-- Logo 1 -->
                                                                                 <td class="column column-1 padding-v padding-hm" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;"> 
-                                                                                    <table class="image_block block-1" width="100%"  cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                                                                    <table class="image_block block-1" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
                                                                                         <tr>
                                                                                             <td class="" style="width:100%;">
-                                                                                                <div class="alignment"  style="line-height:10px">
+                                                                                                <div class="alignment" style="line-height:10px">
                                                                                                     <div class="logo-box" style="">
                                                                                                         <img class="mlogo" src="https://mcusercontent.com/2ec0be769822ccda356433ce9/images/ee2431ac-85f9-cdcd-eec1-fcb4f82f1868.png" style="margin: auto; display: block; border: 0;" alt="Opentable Logo" title="Opentable Logo"></div>
                                                                                                 </div>
@@ -991,10 +1080,10 @@
                                                                                 </td>
                                                                             <!-- Logo 2 -->
                                                                                 <td class="column column-2 padding-v padding-hm" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;">
-                                                                                    <table class="image_block block-1" width="100%"  cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                                                                    <table class="image_block block-1" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
                                                                                         <tr>
                                                                                             <td class="" style="width:100%;">
-                                                                                                <div class="alignment"  style="line-height:10px">
+                                                                                                <div class="alignment" style="line-height:10px">
                                                                                                     <div class="logo-box" style="">
                                                                                                         <img class="mlogo" src="https://mcusercontent.com/2ec0be769822ccda356433ce9/images/89e8d5a6-3983-a22b-2957-ba6aabf5ca5c.png" style="margin: auto; display: block; border: 0;" alt="DINR Logo" title="DINR Logo"></div>
                                                                                                 </div>
@@ -1004,10 +1093,10 @@
                                                                                 </td>
                                                                             <!-- Logo 3 -->
                                                                                 <td class="column column-3 padding-v padding-hm" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;">
-                                                                                    <table class="image_block block-1" width="100%"  cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                                                                    <table class="image_block block-1" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
                                                                                         <tr>
                                                                                             <td class="" style="width:100%;">
-                                                                                                <div class="alignment"  style="line-height:10px">
+                                                                                                <div class="alignment" style="line-height:10px">
                                                                                                     <div class="logo-box" style="">
                                                                                                         <img class="mlogo" src="https://mcusercontent.com/2ec0be769822ccda356433ce9/images/88a2faf0-e772-7e26-9222-ca2f8e64fe0b.png" style="margin: auto; display: block; border: 0;" alt="Tablz Logo" title="Tablz Logo"></div>
                                                                                                 </div>
@@ -1024,14 +1113,14 @@
                                                     <!-- End Info Logos -->
                                                 </tbody>
                                             </table>
-                                            <table class="row-content stack padding-vl padding-hxl"   cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #000000; color: #000000; width: 100%; margin: 0 auto;" width="100%">
+                                            <table class="row-content stack padding-vl padding-hxl" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #000000; color: #000000; width: 100%; margin: 0 auto;" width="100%">
                                                 <tbody>
                                                     <tr>
                                                     
                                                         <!-- Start Left Column -->
                                                     
                                                         <td class="column column-1 padding-h" width="25%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; padding-bottom: 5px; padding-top: 5px; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;">
-                                                            <table class="image_block block-1" width="100%"  cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                                            <table class="image_block block-1" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
                                                                 <tr>
                                                                     <td class="pad" style="width:100%;">
                                                                         <div class="alignment" align="left" style="line-height:10px">
@@ -1040,7 +1129,7 @@
                                                                     </td>
                                                                 </tr>
                                                             </table>
-                                                            <table class="paragraph_block block-2" width="100%"  cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;">
+                                                            <table class="paragraph_block block-2" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;">
                                                                 <tr>
                                                                     <td class="pad" style="padding-top:15px;">
                                                                         <div style="color:#ffffff;direction:ltr;font-family:'Merriwheater', 'Georgia', serif;font-size:16px;font-weight:400;letter-spacing:0px;line-height:150%;text-align:left;mso-line-height-alt:24px;">
@@ -1055,14 +1144,14 @@
                                                         <!-- Start Middle Column -->
                                                         
                                                         <td class="column column-2 padding-h" width="25%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; padding-bottom: 5px; padding-top: 5px; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;">
-                                                            <table class="heading_block block-1" width="100%"  cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                                            <table class="heading_block block-1" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
                                                                 <tr>
                                                                     <td class="pad" style="text-align:center;width:100%;">
                                                                         <h5 style="margin: 0; color: #ffffff; direction: ltr; font-family: 'Oswald', Arial, 'Helvetica Neue', Helvetica, sans-serif; line-height: 200%; text-align: left; margin-top: 0; margin-bottom: 0; mso-line-height-alt: 36px;"><strong>Menus</strong></h5>
                                                                     </td>
                                                                 </tr>
                                                             </table>
-                                                            <table class="paragraph_block block-2" width="100%"  cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;">
+                                                            <table class="paragraph_block block-2" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;">
                                                                 <tr>
                                                                     <td class="pad" style="">
                                                                         <div style="color:#ffffff;direction:ltr;font-family:'Merriwheater', 'Georgia', serif;font-size:16px;font-weight:400;letter-spacing:0px;line-height:100%;text-align:left;mso-line-height-alt:24px;">
@@ -1078,14 +1167,14 @@
                                                         <!-- Start Right Column -->
                                                         
                                                         <td class="column column-3 padding-h" width="33.333333333333336%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; padding-bottom: 5px; padding-top: 5px; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;">
-                                                            <table class="heading_block block-1" width="100%"  cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                                            <table class="heading_block block-1" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
                                                                 <tr>
                                                                     <td class="pad" style="text-align:center;width:100%;">
                                                                         <h5 style="margin: 0; color: #ffffff; direction: ltr; font-family: 'Oswald', Arial, 'Helvetica Neue', Helvetica, sans-serif; line-height: 200%; text-align: left; margin-top: 0; margin-bottom: 0; mso-line-height-alt: 36px;"><strong>Contact</strong></h5>
                                                                     </td>
                                                                 </tr>
                                                             </table>
-                                                            <table class="paragraph_block block-2" width="100%"  cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;">
+                                                            <table class="paragraph_block block-2" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;">
                                                                 <tr>
                                                                     <td class="pad" style="">
                                                                         <div style="color:#ffffff;direction:ltr;font-family:'Merriwheater', 'Georgia', serif;font-size:16px;font-weight:400;letter-spacing:0px;line-height:100%;text-align:left;mso-line-height-alt:24px;">
@@ -1098,11 +1187,11 @@
                                                                     </td>
                                                                 </tr>
                                                             </table>
-                                                            <table class="social_block block-7" width="100%"  cellpadding="10" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;margin-top:10px;">
+                                                            <table class="social_block block-7" width="100%" cellpadding="10" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;margin-top:10px;">
                                                                 <tr>
                                                                     <td class="" style="padding: 0px;">
                                                                         <div class="alignment" align="left">
-                                                                            <table class="social-table" width="144px"  cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; display: inline-block;">
+                                                                            <table class="social-table" width="144px" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; display: inline-block;">
                                                                                 <tr>
                                                                                     <td style="padding:0 4px 0 0;"><a href="https://www.instagram.com/thecarbonbar/" target="_blank"><img src="https://app-rsrc.getbee.io/public/resources/social-networks-icon-sets/t-only-logo-white/instagram@2x.png" width="32" height="32" alt="Instagram" title="instagram" style="display: block; height: auto; border: 0;"></a></td>
                                                                                 </tr>
@@ -1127,12 +1216,12 @@
                         
                         <!-- End FOOTER Section 6 -->
                         <!-- Start DISCLAIMER -->
-                            <table width="100%"  cellpadding="0" cellspacing="0" id="canspamBarWrapper" style="background-color:#000000; border-top: 1px solid #2d2d2d; width: 100%; " >
+                            <table width="100%" cellpadding="0" cellspacing="0" id="canspamBarWrapper" style="background-color:#000000; border-top: 1px solid #2d2d2d; width: 100%; ">
                                 <tr>
-                                    <td  valign="top" style="padding-top:20px; padding-bottom:20px;">
-                                        <table width="100%"  cellpadding="0" cellspacing="0" id="canspamBar" style="width: 100%;">
+                                    <td valign="top" style="padding-top:20px; padding-bottom:20px;">
+                                        <table width="100%" cellpadding="0" cellspacing="0" id="canspamBar" style="width: 100%;">
                                             <tr>
-                                                <td  valign="top" style="color:#ffffff; font-family:Helvetica, Arial, sans-serif; font-size:11px; line-height:150%; padding-right:20px; padding-bottom:5px; padding-left:20px; text-align:center;">
+                                                <td valign="top" style="color:#ffffff; font-family:Helvetica, Arial, sans-serif; font-size:11px; line-height:150%; padding-right:20px; padding-bottom:5px; padding-left:20px; text-align:center;">
                                                     This email was sent to 
                                                     <a href="mailto:*|EMAIL|*" target="_blank" style="color:#ffffff !important;">*|EMAIL|*</a>
                                                     <a href="*|UNSUB|*" style="color:#ffffff !important;">Unsubscribe</a>
